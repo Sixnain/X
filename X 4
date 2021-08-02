@@ -1,0 +1,24 @@
+import os
+os.system('clear')
+print ("Hello")
+
+x = ("Welcome..")
+print (x+"X")
+
+name = input ("Como tianas:")
+print (" Welcome " + name)
+
+if name == "X":
+    print ("Nais...")
+
+else:
+    print ("Error.."*1000)
+    input ("Repite Nombre :")
+    name = "X"
+    if name == "X":
+        print ("Ok...")
+        print ("Welcome")
+    
+def XI (name) :
+    print (" Welcome bro " + name)
+XI(name)
